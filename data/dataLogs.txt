@@ -7,3 +7,31 @@ Success: Category "Popular" at time 2022-07-05 01:42:49 was entered correctly.
 Success: Category "Up-And-Coming" at time 2022-07-05 01:45:59 was entered correctly.
 Success: Category "Fighting" at time 2022-07-05 01:49:41 was entered correctly.
 Success: Category "Obby" at time 2022-07-05 01:49:57 was entered correctly.
+Success: Category "Top Trending" at time 2024-11-02 22:12:47 was entered correctly.
+Success: Category "Up-And-Coming" at time 2024-11-02 22:13:44 was entered correctly.
+Success: Category "Popular" at time 2024-11-02 22:17:24 was entered correctly.
+Success: Category "Top Trending" at time 2024-11-02 22:30:28 was entered correctly.
+Success: Category "Up-And-Coming" at time 2024-11-02 22:31:24 was entered correctly.
+Success: Category "Popular" at time 2024-11-02 22:35:24 was entered correctly.
+Success: Category "Fun with Friends" at time 2024-11-02 22:39:23 was entered correctly.
+Success: Category "Top Revisited" at time 2024-11-02 22:43:46 was entered correctly.
+Success: Category "Top Earning" at time 2024-11-02 22:55:49 was entered correctly.
+Success: Category "Top Paid Access" at time 2024-11-02 22:56:42 was entered correctly.
+Success: Category "Most Popular" at time 2024-11-02 23:00:32 was entered correctly.
+Success: Category "Top Rated" at time 2024-11-02 23:04:17 was entered correctly.
+Success: Category "Trending Music Experiences" at time 2024-11-02 23:08:45 was entered correctly.
+Success: Category "Trending in Action" at time 2024-11-02 23:15:46 was entered correctly.
+Success: Category "Trending in Adventure" at time 2024-11-02 23:16:42 was entered correctly.
+Success: Category "Trending in Entertainment" at time 2024-11-02 23:21:13 was entered correctly.
+Success: Category "Trending in Obby & Platformer" at time 2024-11-02 23:24:43 was entered correctly.
+Success: Category "Trending in Party & Casual" at time 2024-11-02 23:28:40 was entered correctly.
+Success: Category "Trending in Puzzle" at time 2024-11-02 23:35:39 was entered correctly.
+Success: Category "Trending in RPG" at time 2024-11-02 23:36:32 was entered correctly.
+Success: Category "Trending in Roleplay & Avatar Sim" at time 2024-11-02 23:40:18 was entered correctly.
+Success: Category "Trending in Shooter" at time 2024-11-02 23:43:53 was entered correctly.
+Success: Category "Trending in Shopping" at time 2024-11-02 23:47:44 was entered correctly.
+Success: Category "Trending in Simulation" at time 2024-11-02 23:55:39 was entered correctly.
+Success: Category "Trending in Social" at time 2024-11-02 23:56:39 was entered correctly.
+Success: Category "Trending in Sports & Racing" at time 2024-11-03 00:00:52 was entered correctly.
+Success: Category "Trending in Strategy" at time 2024-11-03 00:04:20 was entered correctly.
+Success: Category "Trending in Survival" at time 2024-11-03 00:08:07 was entered correctly.

@@ -5,18 +5,23 @@ from requests_html import HTMLSession
 
 def main():
 
-    url = 'https://www.roblox.com/discover'
-
+    url = 'https://www.roblox.com/charts#/?device=all'
+    
     session = HTMLSession()
     res = get_valid_session(url)
     res.html.render(sleep=1)
 
     games_list = get_game_urls(res, int(sys.argv[1]))
+    if games_list is None:
+        print("Error: get_game_urls returned None")
+        return
+
     final_data = []
 
     for count, game_url in enumerate(games_list.absolute_links):
         print("Getting game ", count, " data...")
         res = session.get(game_url)
+        res.html.render(sleep=1)
         
         game_object = []
         current_time = get_current_time()
@@ -26,12 +31,13 @@ def main():
         game_object.extend(get_game_attributes(res))
         game_object.append(get_game_title(res))
         game_object.append(get_creator_name(res))
+        game_object.append(get_age_recommendation(res))
         game_object.append(get_gameid(game_url))
         game_object.append(game_category)
         game_object.append(game_url)
-        game_object.append(get_game_description(res))
+        #game_object.append(get_game_description(res))
         game_object = remove_special_characters(game_object)
-        game_object = validate_game_data(res, game_object)
+        #game_object = validate_game_data(res, game_object)
         final_data.append(game_object)
         print(game_object, len(game_object))
     data_logger(final_data, game_category)

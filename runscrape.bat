@@ -1,6 +1,8 @@
 python src/main.py 0
 python src/main.py 1
 python src/main.py 2
+python src/main.py 3
+python src/main.py 4
 @REM python src/main.py 3
 @REM python src/main.py 4
 @REM python src/main.py 5
